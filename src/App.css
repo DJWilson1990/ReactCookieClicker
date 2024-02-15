@@ -1,0 +1,18 @@
+h1,
+h3,
+.rules {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.rules {
+  font-size: 15px;
+}

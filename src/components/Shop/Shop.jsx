@@ -11,10 +11,11 @@ export default function Shop(props) {
   }
 
   return (
-    <div>
+    <div className="shop-container">
       {shopItems.map((items) => (
         <ShopItem
           key={items.id}
+          imgLink={items.imgLink}
           itemName={items.itemName}
           cost={items.cost}
           bonus={items.bonus}

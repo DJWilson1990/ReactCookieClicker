@@ -1,0 +1,17 @@
+.reset-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.reset-button {
+  border-radius: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  width: 150px;
+  height: 20px;
+}
+
+.reset-button:hover {
+  color: white;
+  background-color: rgb(193, 125, 23);
+  cursor: pointer;
+}

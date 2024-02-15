@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Honk&family=Luckiest+Guy&display=swap");
+
+.shop-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.shop-item-container p {
+  margin: 5px;
+}
+
+.shop-image {
+  height: 150px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.shop-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(228, 148, 73);
+  width: 150px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.buy-button {
+  border-radius: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.buy-button:hover {
+  color: white;
+  background-color: rgb(193, 125, 23);
+  cursor: pointer;
+}
