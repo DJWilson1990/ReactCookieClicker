@@ -18,6 +18,11 @@ export default function Clicker() {
     }
   };
 
+  const resetGame = () => {
+    setCount(0);
+    setIncrementValue(1);
+  };
+
   useEffect(() => {
     console.log("running useEffect...");
     let interval = setInterval(() => {
@@ -39,10 +44,11 @@ export default function Clicker() {
         </button>
       </div>
       <Shop purchase={buyItem} />
-      <ResetButton
+      <ResetButton reset={resetGame} />
+      {/* <ResetButton
         resetCount={setCount}
         resetIncrementValue={setIncrementValue}
-      />
+      /> */}
     </div>
   );
 }
